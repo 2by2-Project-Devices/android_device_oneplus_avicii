@@ -169,6 +169,7 @@ VENDOR_SECURITY_PATCH := 2023-12-05
 # SEPolicy
 include device/qcom/sepolicy_vndr/SEPolicy.mk
 include hardware/oplus/sepolicy/qti/SEPolicy.mk
+-include device/lineage/sepolicy/qcom/sepolicy.mk
 
 # Touch
 SOONG_CONFIG_NAMESPACES += OPLUS_LINEAGE_TOUCH_HAL
